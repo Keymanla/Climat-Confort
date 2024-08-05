@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 class WeatherService {
-  final String apiKey = '28b9599be170698a19d1b5617097ce94';
+  final String apiKey = 'votre clé api';
   final String apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
   Future<WeatherResponse> getOutdoorTemperature(String city) async {
